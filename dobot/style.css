@@ -1,29 +1,45 @@
-* {
-	background-color: #1a2325;
+body {
+	border-top: solid #f8695a 4px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+	background-color: #1a2325; 
 	}
+
+h1 {
+	display: none;
+}	
+
 
 article:not(last-child) {
 	border-bottom: 1px dotted #4b5152;
 } 
 
 .logo {
-	height: 34px;
-	width: 62px;
+	height: 50px;
+	width: 50px;
+	padding: 15px;
+	background-color: #f8695a;
+
 }
 
-.logo-back {
-	width: 80px;
-	height: 80px;
-	background-color: #f8695a;
+
+img {
+	padding: 100px;
+	display: inline-block;
+
 }
 
 .item-name {
 	font-family: Quatro Slab;
 	font-size: 36px;
 	color: #f4f5f5;
+	padding-top: 50px;
+	padding-bottom: 15px;
 	}
 	
 .details { 
+	padding-bottom: 15px;
 	font-family: LFT Etica;
 	font-style: Book;
 	font-size: 16px;
@@ -35,9 +51,12 @@ article:not(last-child) {
 	font-style: Regular;
 	font-size: 16px;
 	color: #abadad;
+	line-height: 22px;
 	}
 
 .link {
+	padding-top: 30px;
+	padding-bottom: 30px;
 	font-family:LFT Etica; 
 	font-style: Regular;
 	color: #01ccce;
@@ -45,6 +64,7 @@ article:not(last-child) {
 }
 
 .price {
+	padding-right: 20px;
 	font-family: Quatro Slab;
 	font-size: 24px;
 	color: #f4f5f5;
@@ -54,7 +74,6 @@ article:not(last-child) {
 	font-family: LFT Etica;
 	font-style: SemiBold;
 	color: #f4f5f5;
-	border: none;
 	background-color: #01ccce;
 	border: 2px solid #4dd9da;
 	width: 121px;
@@ -62,10 +81,12 @@ article:not(last-child) {
 }
 
 button:hover {
-	color:black;
+	color: #01ccce;
+	background-color: #f4f5f5;
+	border: 2px solid #f4f5f5;
 }
 
 a:hover {
-	color:black;
+	color:white;
 }
 
