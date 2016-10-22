@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
 	margin-right: auto;
 	margin-left: auto;
 	width: 960px;
@@ -7,20 +6,13 @@ body {
 	padding-right: 250px;
 	background-color: #1a2325; 
 	border-top: solid #f8695a 4px;
-=======
 	border-top: solid #f8695a 4px;
-	margin-right: auto;
-	margin-left: auto;
-	width: 960px;
-	background-color: #1a2325; 
->>>>>>> origin/master
 	}
 
 h1 {
 	display: none;
 }	
 
-<<<<<<< HEAD
 
 .logo {
 	border-width: solid #f8695a 2000px;
@@ -33,7 +25,7 @@ h1 {
 }
 
 article {
-	width: 1045px;
+	width: 1062px;
 	position:relative;
 	padding-bottom: 215px;
 }
@@ -41,42 +33,26 @@ article {
 
 article:not(last-child) {
 	border-bottom: 1px dotted #4b5152;
-    
-=======
+}
 
-article:not(last-child) {
-	border-bottom: 1px dotted #4b5152;
-} 
 
 .logo {
 	height: 50px;
 	width: 50px;
 	padding: 15px;
 	background-color: #f8695a;
-
 }
 
 
-img {
-	padding: 100px;
-	display: inline-block;
-
->>>>>>> origin/master
-}
 
 .item-name {
 	font-family: Quatro Slab;
 	font-size: 36px;
 	color: #f4f5f5;
-<<<<<<< HEAD
-	padding-top: 140px;
+	padding-top: 100px;
 	padding-bottom: 15px;
 	width: 340px;
 	line-height: 40px;
-=======
-	padding-top: 50px;
-	padding-bottom: 15px;
->>>>>>> origin/master
 	}
 	
 .details { 
@@ -92,14 +68,11 @@ img {
 	font-style: Regular;
 	font-size: 16px;
 	color: #abadad;
-<<<<<<< HEAD
 	width: 366px;
 	line-height: 25px;
 	padding-top: 15px;
 	padding bottom: 10px;
-=======
 	line-height: 22px;
->>>>>>> origin/master
 	}
 
 .link {
@@ -110,7 +83,7 @@ img {
 	color: #01ccce;
 	text-decoration: none;
 	display: block;
-	margin-top: 40px;
+	margin-top: 10px;
 	margin-bottom: 10px;
 	padding-bottom: 45px;
 	border-bottom: .15px dotted #4b5152;
@@ -139,10 +112,9 @@ img {
 	display:inline-block; 
 }
 
-<<<<<<< HEAD
 article img {
 	width: 580px;
-	margin-top: 130px;
+	margin-top: 100px;
 	margin-left: 270px;
 	position: absolute;
 	top: 0;
@@ -152,16 +124,6 @@ button:hover {
 	color: #01ccce;
 	background-color: #f4f5f5;
 	border: 2px solid #f4f5f5;
-=======
-button:hover {
-	color: #01ccce;
-	background-color: #f4f5f5;
-	border: 2px solid #f4f5f5;
-}
-
-a:hover {
-	color:white;
->>>>>>> origin/master
 }
 
 a:hover {
