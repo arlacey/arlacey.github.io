@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
 	margin-right: auto;
 	margin-left: auto;
 	width: 960px;
@@ -6,12 +7,20 @@ body {
 	padding-right: 250px;
 	background-color: #1a2325; 
 	border-top: solid #f8695a 4px;
+=======
+	border-top: solid #f8695a 4px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+	background-color: #1a2325; 
+>>>>>>> origin/master
 	}
 
 h1 {
 	display: none;
 }	
 
+<<<<<<< HEAD
 
 .logo {
 	border-width: solid #f8695a 2000px;
@@ -33,16 +42,41 @@ article {
 article:not(last-child) {
 	border-bottom: 1px dotted #4b5152;
     
+=======
+
+article:not(last-child) {
+	border-bottom: 1px dotted #4b5152;
+} 
+
+.logo {
+	height: 50px;
+	width: 50px;
+	padding: 15px;
+	background-color: #f8695a;
+
+}
+
+
+img {
+	padding: 100px;
+	display: inline-block;
+
+>>>>>>> origin/master
 }
 
 .item-name {
 	font-family: Quatro Slab;
 	font-size: 36px;
 	color: #f4f5f5;
+<<<<<<< HEAD
 	padding-top: 140px;
 	padding-bottom: 15px;
 	width: 340px;
 	line-height: 40px;
+=======
+	padding-top: 50px;
+	padding-bottom: 15px;
+>>>>>>> origin/master
 	}
 	
 .details { 
@@ -58,13 +92,19 @@ article:not(last-child) {
 	font-style: Regular;
 	font-size: 16px;
 	color: #abadad;
+<<<<<<< HEAD
 	width: 366px;
 	line-height: 25px;
 	padding-top: 15px;
 	padding bottom: 10px;
+=======
+	line-height: 22px;
+>>>>>>> origin/master
 	}
 
 .link {
+	padding-top: 30px;
+	padding-bottom: 30px;
 	font-family:LFT Etica; 
 	font-style: Regular;
 	color: #01ccce;
@@ -78,6 +118,7 @@ article:not(last-child) {
 }
 
 .price {
+	padding-right: 20px;
 	font-family: Quatro Slab;
 	font-size: 24px;
 	color: #f4f5f5;
@@ -98,6 +139,7 @@ article:not(last-child) {
 	display:inline-block; 
 }
 
+<<<<<<< HEAD
 article img {
 	width: 580px;
 	margin-top: 130px;
@@ -110,6 +152,16 @@ button:hover {
 	color: #01ccce;
 	background-color: #f4f5f5;
 	border: 2px solid #f4f5f5;
+=======
+button:hover {
+	color: #01ccce;
+	background-color: #f4f5f5;
+	border: 2px solid #f4f5f5;
+}
+
+a:hover {
+	color:white;
+>>>>>>> origin/master
 }
 
 a:hover {
