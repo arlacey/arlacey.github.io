@@ -1,29 +1,52 @@
-* {
-	background-color: #1a2325;
+body {
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+	padding-left:139px;
+	padding-right: 250px;
+	background-color: #1a2325; 
+	border-top: solid #f8695a 4px;
 	}
+
+h1 {
+	display: none;
+}	
+
+
+.logo {
+	border-width: solid #f8695a 2000px;
+	height: 46px;
+	width: 50px;
+	padding: 15px;
+	padding-bottom: 19px;
+	padding-top: 11px;
+	background-color: #f8695a;
+}
+
+article {
+	width: 1045px;
+	position:relative;
+	padding-bottom: 215px;
+}
+
 
 article:not(last-child) {
 	border-bottom: 1px dotted #4b5152;
-} 
-
-.logo {
-	height: 34px;
-	width: 62px;
-}
-
-.logo-back {
-	width: 80px;
-	height: 80px;
-	background-color: #f8695a;
+    
 }
 
 .item-name {
 	font-family: Quatro Slab;
 	font-size: 36px;
 	color: #f4f5f5;
+	padding-top: 140px;
+	padding-bottom: 15px;
+	width: 340px;
+	line-height: 40px;
 	}
 	
 .details { 
+	padding-bottom: 15px;
 	font-family: LFT Etica;
 	font-style: Book;
 	font-size: 16px;
@@ -35,6 +58,10 @@ article:not(last-child) {
 	font-style: Regular;
 	font-size: 16px;
 	color: #abadad;
+	width: 366px;
+	line-height: 25px;
+	padding-top: 15px;
+	padding bottom: 10px;
 	}
 
 .link {
@@ -42,30 +69,49 @@ article:not(last-child) {
 	font-style: Regular;
 	color: #01ccce;
 	text-decoration: none;
+	display: block;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	padding-bottom: 45px;
+	border-bottom: .15px dotted #4b5152;
+	width: 366px;
 }
 
 .price {
 	font-family: Quatro Slab;
 	font-size: 24px;
 	color: #f4f5f5;
+	display:inline-block;
+	margin-top: 45px;
+	margin-right: 25px;
+	margin-bottom: 45px;
 	}
 
 .button {
 	font-family: LFT Etica;
 	font-style: SemiBold;
 	color: #f4f5f5;
-	border: none;
 	background-color: #01ccce;
 	border: 2px solid #4dd9da;
 	width: 121px;
-	height: 42px; 
+	height: 42px;
+	display:inline-block; 
+}
+
+article img {
+	width: 580px;
+	margin-top: 130px;
+	margin-left: 270px;
+	position: absolute;
+	top: 0;
 }
 
 button:hover {
-	color:black;
+	color: #01ccce;
+	background-color: #f4f5f5;
+	border: 2px solid #f4f5f5;
 }
 
 a:hover {
-	color:black;
+	color:white;
 }
-
