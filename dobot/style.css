@@ -2,8 +2,8 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	width: 960px;
-	padding-left:139px;
-	padding-right: 250px;
+	padding-left:8.7em;
+	padding-right: 15.63em;
 	background-color: #1a2325; 
 	border-top: solid #f8695a 4px;
 	border-top: solid #f8695a 4px;
@@ -16,7 +16,7 @@ h1 {
 
 .logo {
 	border-width: solid #f8695a 2000px;
-	height: 46px;
+	height: 50px;
 	width: 50px;
 	padding: 15px;
 	padding-bottom: 19px;
@@ -34,16 +34,6 @@ article {
 article:not(last-child) {
 	border-bottom: 1px dotted #4b5152;
 }
-
-
-.logo {
-	height: 50px;
-	width: 50px;
-	padding: 15px;
-	background-color: #f8695a;
-}
-
-
 
 .item-name {
 	font-family: Quatro Slab;
@@ -104,6 +94,7 @@ article:not(last-child) {
 .button {
 	font-family: LFT Etica;
 	font-style: SemiBold;
+	text-transform: uppercase;
 	color: #f4f5f5;
 	background-color: #01ccce;
 	border: 2px solid #4dd9da;
