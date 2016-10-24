@@ -32,7 +32,7 @@ article {
 }
 
 
-article:not(last-child) {
+article:not(:last-child) {
 	border-bottom: 1px dotted #4b5152;
 }
 
@@ -53,6 +53,12 @@ article:not(last-child) {
 	font-size: 14px;
 	color: #4b5152;
 	} 
+
+span {
+	font-family: Arial;
+	font-style: Regular;
+	font-size: 20px;
+}
 
 .description {
 	font-family: LFT Etica;
