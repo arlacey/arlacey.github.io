@@ -104,7 +104,7 @@ span {
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #f4f5f5;
-	background-color: #01ccce;
+	background: url(Images/Button.png);
 	border: 2px solid #4dd9da;
 	width: 121px;
 	height: 42px;
@@ -121,8 +121,7 @@ article img {
 }
 
 button:hover {
-	color: #01ccce;
-	background-color: #f4f5f5;
+	background: url(Images/Button_Hover.png);
 	border: 2px solid #f4f5f5;
 }
 
