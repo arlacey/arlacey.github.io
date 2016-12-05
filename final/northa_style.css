@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* RESET END */
+
+body {
+	max-width: 100%;
+	background-color: #212121;
+	padding-bottom: 220px;
+}
+
+header {
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+
+.logo{
+	width: 7%;
+	float: left;
+	display: block;
+	margin-left: 2%;
+
+}
+
+
+nav {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+ul li a {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 1.4em;
+	text-transform:uppercase;
+	text-decoration: none;
+	color: white;
+	margin: 3em;
+
+}
+
+ul li:hover a{
+	border-bottom: solid #005297 5px;
+}
+
+.north {
+	border-bottom: solid #005297 5px;
+}
+
+ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+article {
+	width: 100%;
+}
+
+h1 {
+	font-family:'Quicksand', sans-serif;
+	font-weight:700;
+	color: white;
+	background-color: #005297;
+	width: 15%;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 9%;
+	padding-left:8%;
+	margin-top: 10%;
+	font-size: 1.2em;
+	margin-bottom: -3%;
+
+}
+
+p {
+	font-family:'Quicksand', sans-serif;
+	font-weight: 400;
+	color: #005297;
+	font-size:1em;
+	width: 25%;
+	display: block;
+	float: left;
+	line-height: 1.5em;
+	margin-left: 8%;
+	margin-top: 6%;
+	margin-right: 7%;
+}
+
+
+.grid {
+	max-width: 100%;
+	margin-top: -1.5%;
+}
+
+ .grid-item {
+ 	float: left;
+	width: 59%;
+	margin: 2px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+.grid-item img {
+	width: 100%;
+	margin:2px;
+}
+
+
+.grid-item--width2 {
+	width: 40%;
+	margin:2px;
+	display:inline-block;
+	float:left;
+}
+
+.grid-item--width2 img{
+	width: 100%;
+	margin:2px;
+}
+
+.grid-item--height2 {
+	width: 59.4%;
+	display:inline-block;
+	float:left;
+}
+
+.grid-item--height2 img{
+	width: 100%;
+}
+
+.grid-item.second {
+	float: left;
+	width: 59%;
+	margin: 2px;
+}
+
+
+.grid-item.grid-item--width2.fifth {
+	width: 49.4%;
+}
+
+.grid-item.grid-item--width2.sixth {
+	width:49.4%;
+}
+
+
+.grid-item.grid-item--width2.eleventh{
+	width: 49.4%;
+}
+
+.grid-item.grid-item--height2.twelfth{
+	width:99%;
+}
+
+.grid-item.grid-item--width2.tenth{
+	width: 49.4%;
+}
+
+
+.grid-item.grid-item--height2.thirteenth{
+	width: 49.4%;
+}
+
+.grid-item.grid-item--height2.fourteenth{
+	width: 49.4%;
+}
+
+.grid-item.fifteenth{
+	width: 99%;
+	padding-bottom: 140px;
+}
+
+.forward {
+	margin-left: 33%;
+	background-color: #212121;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 1.4em;
+	color: #005297;
+	border: solid #005297 3px;
+	border-radius: 15px;
+	padding: 1% 10% 1% 10%;
+	text-decoration: none;
+
+}
+
+.forward:hover {
+	color: #212121;
+	background-color: #005297;
+}
+
+.back {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #005297;
+	text-decoration:none;
+	margin:auto;
+	padding-top: 70px;
+	width: 17%;
+	text-align: center;
+}
+
+.back a:hover {
+	color: white;
+	border-bottom: solid white 1px;
+	padding-bottom:1%;
+}
