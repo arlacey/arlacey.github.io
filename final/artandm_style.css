@@ -193,6 +193,7 @@ p {
 
 .grid-item.grid-item--width2.eleventh{
 	width: 49.4%;
+	padding-bottom: 12.5%;
 }
 
 .grid-item.grid-item--height2.twelfth{
@@ -229,6 +230,7 @@ p {
 	padding: 1% 10% 1% 10%;
 	text-decoration: none;
 
+
 }
 
 .forward:hover {
@@ -244,7 +246,7 @@ p {
 	text-decoration:none;
 	margin:auto;
 	padding-top: 70px;
-	width: 8%;
+	width: 20%;
 	text-align: center;
 }
 
