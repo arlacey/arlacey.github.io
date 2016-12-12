@@ -82,7 +82,8 @@ ul li a {
 	text-transform:uppercase;
 	text-decoration: none;
 	color: white;
-	margin: 3em;
+	margin: 1em 3em;
+	display:inherit;
 
 }
 
@@ -178,13 +179,6 @@ p {
 	width: 100%;
 }
 
-.grid-item.second {
-	float: left;
-	width: 59%;
-	margin: 2px;
-}
-
-
 .grid-item.grid-item--width2.fifth {
 	width: 49.4%;
 }
@@ -221,7 +215,6 @@ p {
 }
 
 .forward {
-	margin-left: 33%;
 	background-color: #212121;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 700;
@@ -232,6 +225,11 @@ p {
 	padding: 1% 10% 1% 10%;
 	text-decoration: none;
 
+}
+
+.button {
+	display:block;
+	text-align:center;
 }
 
 .forward:hover {
@@ -253,8 +251,6 @@ p {
 
 .back a:hover {
 	color: white;
-	border-bottom: solid white 1px;
-	padding-bottom:1%;
 }
 
 @media screen and (max-width: 800px) {
@@ -352,5 +348,6 @@ p {
 	width: 40%;
 
 }
+
 
 }

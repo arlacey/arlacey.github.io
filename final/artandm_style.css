@@ -82,7 +82,8 @@ ul li a {
 	text-transform:uppercase;
 	text-decoration: none;
 	color: white;
-	margin: 3em;
+	margin: 1em 3em;
+	display:inherit;
 
 }
 
@@ -178,11 +179,6 @@ p {
 	width: 100%;
 }
 
-.grid-item.second {
-	float: left;
-	width: 59%;
-	margin: 2px;
-}
 
 .grid-item.grid-item--width2.fifth {
 	width: 49.4%;
@@ -347,6 +343,11 @@ p {
 .forward {
 	width: 100%;
 	display:inline-block;
+}
+
+.button {
+	text-align:center;
+	display:block;
 }
 
 .back {

@@ -215,7 +215,6 @@ p {
 }
 
 .forward {
-	margin-left: 29%;
 	background-color: #212121;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 700;
@@ -241,14 +240,16 @@ p {
 	text-decoration:none;
 	margin:auto;
 	padding-top: 70px;
-	width: 8%;
 	text-align: center;
 }
+.button {
+	display:block;
+	text-align:center;
+}
+
 
 .back a:hover {
 	color: white;
-	border-bottom: solid white 1px;
-	padding-bottom:1%;
 }
 
 
@@ -341,16 +342,10 @@ p {
 
 
 .forward {
-	width: 100%;
+	width: 60%;
 	display:inline-block;
 
 }
-
-.back {
-	width: 100%;
-
-}
-
 
 }
 
