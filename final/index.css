@@ -177,7 +177,22 @@ article img:hover {
 
 }
 
+@media screen and (max-width: 700px) {
+	h2{
+		width: 100%;
+		padding-bottom: 6%;
+	}
 
+	article img{ 
+		width: 100%;
+	 }
+
+	 nav a {
+	 	margin-right: 6%;
+	 }
+
+
+}
 
 
 

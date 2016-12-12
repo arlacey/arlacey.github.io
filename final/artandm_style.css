@@ -101,6 +101,8 @@ ul li {
 
 article {
 	width: 100%;
+	display: block;
+	overflow:hidden;
 }
 
 h1 {
@@ -254,4 +256,102 @@ p {
 	color: white;
 	border-bottom: solid white 1px;
 	padding-bottom:1%;
+}
+
+@media screen and (max-width: 800px) {
+
+header{
+	width: 100%; 
+}
+
+.logo {
+	width: 15%;
+	float:left;
+	padding-bottom:20%;
+}
+ul li a{	
+	font-size: 1.2em;
+	float:left;
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-top: 0em;
+	margin-bottom:.5em;
+}
+	
+h1 {
+	width: 80%;
+}
+
+p {
+	width: 80%;
+}
+.grid {
+	width: 100%;
+}
+
+ .grid-item {
+	width: 100%;
+}
+
+.grid-item--width2 {
+	width: 100%;
+
+}
+
+.grid-item--height2 {
+	width: 100%;
+}
+
+.first {
+	width: 100%;
+}
+
+
+
+.grid-item.grid-item--width2.fifth {
+	width: 100%;
+}
+
+.grid-item.grid-item--width2.sixth {
+	width:100%;
+}
+
+
+.grid-item.grid-item--width2.eleventh{
+	width: 100%;
+}
+
+.grid-item.grid-item--height2.twelfth{
+	width:100%;
+}
+
+.grid-item.grid-item--width2.tenth{
+	width: 100%;
+}
+
+
+.grid-item.grid-item--height2.thirteenth{
+	width: 100%;
+}
+
+.grid-item.grid-item--height2.fourteenth{
+	width: 100%;
+}
+
+.grid-item.fifteenth{
+	width: 100%;
+	padding-bottom: 140px;
+}
+
+
+.forward {
+	width: 100%;
+	display:inline-block;
+}
+
+.back {
+	width: 100%;
+
+}
+
 }
